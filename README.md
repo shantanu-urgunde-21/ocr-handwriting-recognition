@@ -60,18 +60,11 @@ This is the most important step for getting accurate results. The model was trai
     Rule 3: Leave Padding. Do not crop tightly around the text. Leave some empty space above, below, and on the sides.
 
 Good Input
+
 A single, clean line of text.	
 
 Bad Input
+
 Multiple lines, which will be distorted.
-Running the Script
-
-Use the predict.py script to run inference from your terminal:
-
-# Predict a single image
-python predict.py path/to/your/image.png
-
-# Predict multiple images
-python predict.py image1.jpg image2.png
 
 The script will load handwriting_recognizer_best.pth and print the predicted text.
